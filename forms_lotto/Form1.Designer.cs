@@ -55,9 +55,9 @@
             // b_roll
             // 
             this.b_roll.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
-            this.b_roll.Location = new System.Drawing.Point(276, 130);
+            this.b_roll.Location = new System.Drawing.Point(276, 116);
             this.b_roll.Name = "b_roll";
-            this.b_roll.Size = new System.Drawing.Size(239, 95);
+            this.b_roll.Size = new System.Drawing.Size(239, 119);
             this.b_roll.TabIndex = 1;
             this.b_roll.Text = "Gamble Time!";
             this.b_roll.UseVisualStyleBackColor = true;
