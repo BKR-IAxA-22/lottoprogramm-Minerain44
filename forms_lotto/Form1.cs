@@ -25,6 +25,7 @@ namespace forms_lotto
 
         private void b_roll_Click(object sender, EventArgs e)
         {
+            //give each Lable an Lable array for later use in the Loop
             labels[0] = l_luckynum1;
             labels[1] = l_luckynum2;
             labels[2] = l_luckynum3;
@@ -32,9 +33,17 @@ namespace forms_lotto
             labels[4] = l_luckynum5;
             labels[5] = l_luckynum6;
 
+            //give each Lable a Random Number
             for (int i = 0; i < 6; i++)
             {
-                lucky_nums[i] = rnd.Next(1,100);
+                lucky_nums[i] = rnd.Next(1, 100);
+                for(int j = 0; i< 6; j++)
+                {
+                    if (lucky_nums[i] == lucky_nums[j])
+                    {
+
+                    }
+                }
                 labels[i].Text = lucky_nums[i].ToString();
             }
         }
