@@ -16,5 +16,10 @@ namespace forms_lotto
         {
             InitializeComponent();
         }
+
+        private void b_roll_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
