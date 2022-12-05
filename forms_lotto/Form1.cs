@@ -37,11 +37,11 @@ namespace forms_lotto
             for (int i = 0; i < 6; i++)
             {
                 lucky_nums[i] = rnd.Next(1, 100);
-                for(int j = 0; i< 6; j++)
+                for(int j = 0; j < 6; j++)
                 {
-                    if (lucky_nums[i] == lucky_nums[j])
+                    if (lucky_nums[i] == lucky_nums[j] && i != j && i != 0)
                     {
-
+                        i--;
                     }
                 }
                 labels[i].Text = lucky_nums[i].ToString();
