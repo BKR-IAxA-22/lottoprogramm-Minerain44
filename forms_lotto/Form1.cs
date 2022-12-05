@@ -14,10 +14,12 @@ namespace forms_lotto
     {
         //setup Variables
         int[] lucky_nums = new int[6];
-        Label[] labels= new Label[6];
+        Label[] labels = new Label[6];
 
         //setup Randomiser
         Random rnd = new Random();
+
+
         public Form1()
         {
             InitializeComponent();
